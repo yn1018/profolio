@@ -6,8 +6,6 @@
     <title>Yan Ni - Performance Marketing Specialist</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;600&display=swap');
-
         * {
             margin: 0;
             padding: 0;
@@ -351,21 +349,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="grid">
-                <div class="grid-item">
-                    <h3>Marketing & Event Volunteer</h3>
-                    <p>Royal Adelaide Show, SA</p>
-                    <p>09.2022 - Present</p>
-                    <p>Executed promotional campaigns, managed digital marketing, and assisted in event coordination.</p>
-                </div>
-                <div class="grid-item">
-                    <h3>Sales Consultant</h3>
-                    <p>YES OPTUS - RUNDLE MALL</p>
-                    <p>11.2023 - 06.2024</p>
-                    <p>Achieved over 95 NPS and consistently met sales targets while managing daily administrative tasks.</p>
-                </div>
-            </div>
         </section>
 
         <section id="certificates" class="certificates">
@@ -373,50 +356,43 @@
             <div class="certificate-wrapper">
                 <div class="certificate-scroll">
                     <div class="certificate-item">
-                        <img src="img/Fundamentals_digital_marketing_Certification_Yan.jpg" alt="Google Analytics Certificate">
+                        <div style="height: 250px">
+                            <img
+                                src="img/Fundamentals_digital_marketing_Certification_Yan.jpg"
+                                alt="Fundamentals of Digital Marketing Certificate"
+                            >
+                        </div>
                         <h3>Google Analytics Certification</h3>
+                        <a
+                            class="btn btn-light"
+                            target="_blank"
+                            aria-label="Show credential for Fundamentals of Digital Marketing Certification"
+                            aria-hidden="false"
+                            href="https://learndigital.withgoogle.com/link/1hqdd1n3z7k"
+                        >
+                            Show credential
+                        </a>
                     </div>
                     <div class="certificate-item">
-                        <img src="img/Google_Analytics_Certification_Yan.jpg" alt="Meta Blueprint Certification">
-                        <h3>Meta Blueprint Certification</h3>
-                    </div>
-                    <div class="certificate-item">
-                        <img src="https://source.unsplash.com/random/300x200?award" alt="HubSpot Inbound Marketing Certification">
-                        <h3>HubSpot Inbound Marketing Certification</h3>
-                    </div>
-                    <div class="certificate-item">
-                        <img src="https://source.unsplash.com/random/300x200?certificate" alt="Certificate 4">
-                        <h3>Certificate 4</h3>
-                    </div>
-                    <div class="certificate-item">
-                        <img src="https://source.unsplash.com/random/300x200?diploma" alt="Certificate 5">
-                        <h3>Certificate 5</h3>
-                    </div>
-                    <div class="certificate-item">
-                        <img src="https://source.unsplash.com/random/300x200?achievement" alt="Certificate 6">
-                        <h3>Certificate 6</h3>
-                    </div>
-                    <div class="certificate-item">
-                        <img src="https://source.unsplash.com/random/300x200?qualification" alt="Certificate 7">
-                        <h3>Certificate 7</h3>
-                    </div>
-                    <div class="certificate-item">
-                        <img src="https://source.unsplash.com/random/300x200?certification" alt="Certificate 8">
-                        <h3>Certificate 8</h3>
-                    </div>
-                    <div class="certificate-item">
-                        <img src="https://source.unsplash.com/random/300x200?accreditation" alt="Certificate 9">
-                        <h3>Certificate 9</h3>
-                    </div>
-                    <div class="certificate-item">
-                        <img src="https://source.unsplash.com/random/300x200?license" alt="Certificate 10">
-                        <h3>Certificate 10</h3>
+                        <div style="height: 250px">
+                            <img src="img/Google_Analytics_Certification_Yan.jpg" alt="Google Analytics Certification">
+                        </div>
+                        <h3>Google Analytics Certification</h3>
+                        <a
+                            class="btn btn-light"
+                            target="_blank"
+                            aria-label="Show credential for Google Analytics Certification"
+                            aria-hidden="false"
+                            href="https://skillshop.credential.net/f1aeff9d-72c7-402c-96d5-38949696f773"
+                        >
+                            Show credential
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="certificate-nav">
-                <button class="prev" onclick="scrollCertificates(-1)">&#10094;</button>
-                <button class="next" onclick="scrollCertificates(1)">&#10095;</button>
+                <button class="prev" onclick="scrollCertificates(1)">&#10094;</button>
+                <button class="next" onclick="scrollCertificates(-1)">&#10095;</button>
             </div>
         </section>
 
@@ -462,12 +438,11 @@
         }
 
         function autoScroll() {
-            scrollCertificates(1);
+            scrollCertificates(-1);
         }
 
         setInterval(autoScroll, scrollInterval);
     </script>
 </body>
-<script src="/scripts/bootstrap.min.js"></script>
 
 </html>
